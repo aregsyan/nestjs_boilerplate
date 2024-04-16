@@ -65,14 +65,6 @@ For incoming request, it is tagged with trace ID, with specific format, to make 
 - BaseEntity
 - User
 
-#### Documentations
-
-Access to docs
-
-````
-{{Host}}/api/api-docs
-````
-
 ## License
 
 `UNLICENSED`.
