@@ -70,7 +70,7 @@ For incoming request, it is tagged with trace ID, with specific format, to make 
 Access to docs
 
 ````
-{{Host}}/api/docs
+{{Host}}/api/api-docs
 ````
 
 ## License
