@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.local
+    container_name: nestjs-boilerplate
+    ports:
+      - '3000:3000'
+      - '9229:9229'
+    environment:
+      - NODE_ENV=development
+      - LOAD_CONFIG_FROM_FILE=true
+    depends_on:
+      - postgres
+    volumes:
+      - ./src/:/app/src
+    restart: always
+  postgres:
+    image: postgres:15.5 # This matches our RDS instance postgres version
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+    ports:
+      - 5432:5432

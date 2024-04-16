@@ -1,0 +1,11 @@
+FROM node:20
+
+WORKDIR /app
+
+COPY package*.json tsconfig*.json nest-cli.json /app/
+
+RUN npm install
+
+COPY env_files /app/env_files
+
+CMD ["npm", "run", "start:debug"]

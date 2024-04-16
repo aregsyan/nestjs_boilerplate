@@ -1,0 +1,1 @@
+export const NESTJS_BOILERPLATE_TRACE_ID = 'x-nestjs-boilerplate-traceId';
