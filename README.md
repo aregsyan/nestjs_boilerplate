@@ -63,7 +63,7 @@ For incoming request, it is tagged with trace ID, with specific format, to make 
 ### Modules/Models
 
 - BaseEntity
-- MyExampleEntity
+- User
 
 #### Documentations
 
