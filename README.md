@@ -4,6 +4,9 @@
 
 NestJS Boilerplate
 
+<img width="1721" alt="Screenshot 2024-04-18 at 17 42 19" src="https://github.com/aregsyan/nestjs_boilerplate/assets/35684826/7f731dbb-73de-4da5-9020-242c45efcfe8">
+
+
 ## Local Setup
 
 ### Installation
